@@ -1,12 +1,13 @@
 .gpt3__header {
     display: flex;
+    flex-direction: row;
 }
 
 .gpt3__header-content {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 
     margin-right: 5rem;
@@ -116,6 +117,7 @@
     .gpt3__header {
         flex-direction: column;
     }
+
     .gpt3__header-content {
         margin: 0 0 3rem;
     }
@@ -131,7 +133,7 @@
         font-size: 16px;
         line-height: 24px;
     }
-
+    
     .gpt3__header-content__people {
         flex-direction: column;
     }
